@@ -1,0 +1,32 @@
+body {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: 'Dosis', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	margin-bottom: 15px;
+}
+
+.header {
+	background-color: #FFFFFF;
+	background-image: url(../imagenes/fondo_cabecera.jpg);
+	height: 170px;
+	background-repeat: repeat-x;
+}
+
+header {
+background-color:#373840;
+}
+
+footer {
+padding: 18px 0;
+background-color:#373840;
+}

@@ -1,0 +1,1 @@
+<div class = "logo"><a href="./index.php"><img src="./imagenes/logo.png" width="200" height="100" alt="rrhh-desarrollo-web" /></a></div>

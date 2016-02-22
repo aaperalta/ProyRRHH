@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_listaUsuarios" value="name:id_usuario;datatype:string,name:clave;datatype:string,name:estado;datatype:string,name:rol;datatype:string,name:fecha_creacion;datatype:timestamp" />
+</info>
